@@ -1,0 +1,39 @@
+{
+  "name": "khaledmohamed",
+  "version": "1.0.0",
+  "description": "My magnificent Nuxt.js project",
+  "author": "k",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@codekraft-studio/vue-record": "0.0.3",
+    "@nuxtjs/moment": "^1.6.1",
+    "animate.css": "^4.0.0",
+    "cookie-parser": "^1.4.5",
+    "cookie-universal-nuxt": "^2.1.4",
+    "cookieparser": "^0.1.0",
+    "firebase": "^7.14.6",
+    "js-cookie": "^2.2.1",
+    "jwt-decode": "^2.2.0",
+    "nuxt": "^2.0.0",
+    "nuxt-material-design-icons": "^1.0.4",
+    "vue-audio": "0.0.12",
+    "vue-audio-recorder": "^3.0.1",
+    "vue-audio-visual": "^2.0.1",
+    "vue-cropperjs": "^4.1.0",
+    "vue-geolocation-api": "^0.1.17",
+    "vue-howler": "^0.7.0",
+    "vue-instantsearch": "^3.0.3",
+    "vue-kinesis": "^1.1.5",
+    "vue-videobg": "^2.0.0",
+    "vuetify-upload-button": "^2.0.2"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.11.2"
+  }
+}

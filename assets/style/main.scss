@@ -1,0 +1,63 @@
+.rounded{
+  border-radius: 50px !important;
+}
+.rounded-5{
+  border-radius: 28px !important;
+}
+.border{
+  border: solid 1px #dddddd;
+  border-radius: 5px;
+}
+.transparent{
+  background-color: transparent;
+}
+.custom-avatar{
+  position: relative;
+  border: solid #fff 3px;
+  border-radius: 50% !important;
+  width: 100px !important;
+  height: 100px !important;
+}
+.avatar{
+  border-radius: 50% !important;
+}
+.pointer{
+  cursor: pointer;
+}
+.opacity{
+  opacity: 0.9;
+}
+
+.flat{
+  background-color: transparent !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 4px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+// .outer {
+//   height: 180px;
+//   width: 500px;
+//   border: 1px solid green;
+//   overflow: hidden;
+// }
+
