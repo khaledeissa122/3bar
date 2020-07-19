@@ -47,21 +47,24 @@ export default {
   */
  buildModules: [
   // Simple usage
-  '@nuxtjs/vuetify',
+
 
   // With options
-  ['@nuxtjs/vuetify', { /* module options */ }],
+
     // Simple usage
     '@nuxtjs/moment',
 
     // With options
     ['@nuxtjs/moment', { /* module options */ }]
 ],
-
+vuetify: {
+  customVariables: ["~/assets/variables.scss"],
+  treeShake: true,
+},
   /*
   ** Nuxt.js modules
   */
-  modules: ['nuxt-material-design-icons','vue-geolocation-api/nuxt'],
+  modules: ['@nuxtjs/vuetify','nuxt-material-design-icons','vue-geolocation-api/nuxt'],
   geolocation:  {
     // watch: true,
   },
